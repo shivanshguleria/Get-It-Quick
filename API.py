@@ -26,14 +26,14 @@ num_pages = pdfReader.numPages
 count = 0
 
 # Initialize a text empty etring variable
-text = "C"
+text = ""
 
 # Extract text from every page on the file
 while count < num_pages:
     pageObj = pdfReader.getPage(count)
     count +=1
     text += pageObj.extractText()
-    
+
     # Convert all strings to lowercase
 text = text.lower()
 
@@ -48,7 +48,7 @@ terms = {'Quality/Six Sigma':['black belt','capability analysis','control charts
                               'gage r&r', 'green belt','ishikawa','iso','kaizen','kpi','lean','metrics',
                               'pdsa','performance improvement','process improvement','quality',
                               'quality circles','quality tools','root cause','six sigma',
-                              'stability analysis','statistical analysis','tqm'],      
+                              'stability analysis','statistical analysis','tqm'],
         'Operations management':['automation','bottleneck','constraints','cycle time','efficiency','fmea',
                                  'machinery','maintenance','manufacture','line balancing','oee','operations',
                                  'operations research','optimization','overall equipment effectiveness',
@@ -84,43 +84,43 @@ scores = []
 
 # Obtain the scores for each area
 for area in terms.keys():
-        
+
     if area == 'Quality/Six Sigma':
         for word in terms[area]:
             if word in text:
                 quality +=1
         scores.append(quality)
-        
+
     elif area == 'Operations management':
         for word in terms[area]:
             if word in text:
                 operations +=1
         scores.append(operations)
-        
+
     elif area == 'Supply chain':
         for word in terms[area]:
             if word in text:
                 supplychain +=1
         scores.append(supplychain)
-        
+
     elif area == 'Project management':
         for word in terms[area]:
             if word in text:
                 project +=1
         scores.append(project)
-        
+
     elif area == 'Data analytics':
         for word in terms[area]:
             if word in text:
                 data +=1
         scores.append(data)
-        
+
     else:
         for word in terms[area]:
             if word in text:
                 healthcare +=1
         scores.append(healthcare)
-        
+
         # Create a data frame with the scores summary
 summary = pd.DataFrame(scores,index=terms.keys(),columns=['score']).sort_values(by='score',ascending=False)
 summary
