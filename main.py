@@ -21,7 +21,7 @@ if __name__ == "__main__":
     import matplotlib.pyplot as plt
 
 
-    pdf = open('1.pdf','rb')     #open pdf
+    pdf = open('resume.pdf','rb')     #open pdf
 
     pdfReader = reader.PdfFileReader(pdf)          #read file
 
