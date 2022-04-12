@@ -16,7 +16,7 @@ pip install flask,PyPDF2,regex,pandas, matplotlib
 
 -Go to directory where the repo is saved 
 
--Open CMD 
+-Open Terminal 
 
 ![Screenshot (48).png](https://github.com/ShivanshGuleria/Get-It-Quick/blob/c80550667344cc66de9bcde34fcb3f57aace9ca0/Images/Screenshot%20(48).png)
 
