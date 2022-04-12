@@ -14,7 +14,7 @@ pip install flask,PyPDF2,regex,pandas, matplotlib
 
 ### Running The Program
 
--Go to directory where the code is saved 
+-Go to directory where the repo is saved 
 
 -Open CMD 
 
