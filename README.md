@@ -12,6 +12,8 @@ To create a system that gives Job Recommendation on basis of resume
 pip install flask,PyPDF2,regex,pandas, matplotlib
 ```
 
+![3.png](https://github.com/ShivanshGuleria/Get-It-Quick/blob/3839630bade19281eed1d3b3410c2ae9f8fa531e/Images/3.png)
+
 ### Running The Program
 
 -Go to directory where the repo is saved 
