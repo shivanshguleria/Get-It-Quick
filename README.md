@@ -71,7 +71,7 @@ python main.py
 [Website](https://abhinandan-giri.github.io/GETITQUICK.github.io)
 
 
-## Project Maintainet(s)
+## Project Maintainer(s)
 
 Abhishek Vashisth       [Github](https://github.com/ABHISHEK-VASHISTH) [LinkedIn](https://www.linkedin.com/in/abhishek-vashisth-90a4771b1)
 
