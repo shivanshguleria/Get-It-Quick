@@ -3,16 +3,6 @@ Created on Mon Apr 11 14:07:19 2022
 
 @author: Band of Brothers
 """
-
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    return "Hello, World!"
-
-if __name__ == "__main__":
     import PyPDF2 as reader
     #import textract
     import re
@@ -176,4 +166,4 @@ if __name__ == "__main__":
     # Save pie chart as a .png file
     pie.savefig('resume_screening_results.png',dpi = 1920*1080)
 
-    app.run(debug=True)
+ 
