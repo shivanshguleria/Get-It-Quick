@@ -68,7 +68,9 @@ python main.py
 
 ## Future Developments
 
-[Website](https://abhinandan-giri.github.io/GETITQUICK.github.io)
+[Website](https://abhinandan-giri.github.io/GetItQuick-Website/)
+
+[Website Repository}(https://github.com/Abhinandan-Giri/GetItQuick-Website)
 
 
 ## Project Maintainer(s)
