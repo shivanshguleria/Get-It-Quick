@@ -1,7 +1,5 @@
 """
 Created on Mon Apr 11 14:07:19 2022
-
-@author: Band of Brothers
 """
     import PyPDF2 as reader
     #import textract
